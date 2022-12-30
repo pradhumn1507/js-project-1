@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+    <header>
+        <div id="headRectang">
+            Student Portal
+        </div>
+    </header>
+
+    <main>
+       
+        <div>
+            <input type="text" id="searchBox" placeholder="Search">
+            <button type="submit" class="button" id="searchButton">Search</button>
+        </div>
+    
+        <div class="container">
+            <button  class="button" id="sortAZ">Sort A->Z</button>
+            <button  class="button" id="sortZA">Sort Z->A</button>
+            <button  class="button" id="sortMarks">Sort By Marks</button>
+            <button  class="button" id="sortPassing">Sort By Passing</button>
+            <button  class="button" id="sortClass">Sort By Class</button>
+            <button  class="button" id="sortGender">Sort By Gender</button>
+        </div>
+       
+        <div>
+            <table   id="Table">
+                <tr>
+                    <th >ID</th>
+                    <th >Name</th>
+                    <th >Gender</th>
+                    <th >Class</th>
+                    <th >Marks</th>
+                    <th >Passing</th>
+                    <th >Email</th>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+
+  
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
